@@ -8,11 +8,7 @@ const TitleWrapper = styled.div`
     height: 100vh;
     /*display: flex;*/
     justify-content: space-between;
-<<<<<<< HEAD
     background-image: url(${props => props.img});
-=======
-    background: url('./IMG_2755.jpeg');
->>>>>>> 0d37d2ae36e26142a18e586e00d09655baed6076
     background-size: cover;
     background-position: center;
 `;
@@ -73,6 +69,9 @@ const CommencementHeader=styled.div`
     text-transform: uppercase;
     margin-top: 5rem;
     margin-right: 1rem;
+    position: absolute;
+    top: 8px;
+    right: 16px;
     font-family: brandon-grotesque;
     &>h1 {
         font-size: 5rem;
@@ -114,14 +113,16 @@ export default class Title extends React.Component {
         ))
         return(
             <TitleWrapper img={ImgSrc}>
+                <CommencementHeader><h1>Homecoming 2021</h1></CommencementHeader>
                 <SectionContainer>
                     {SectionButtons}
                 </SectionContainer>
+                
                 <a href="https://www.columbiaspectator.com/">
                     <Logo src="https://s3.amazonaws.com/year-in-review-assets/whitemasthead.png" />
                 </a>
                 {/* <Logo href="https://www.columbiaspectator.com/"/> */}
-                <CommencementHeader><h1>Homecoming 2021</h1></CommencementHeader>
+                
             </TitleWrapper>
         )
     }
