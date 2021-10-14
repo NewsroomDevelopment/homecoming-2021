@@ -1,19 +1,20 @@
 import React from 'react';
 import styled from 'styled-components'
+import ImgSrc from '../images/background.png';
 
 const TitleWrapper = styled.div`
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../components/images/IMG_2755.png);
+    background-image: url(${props => props.img});
     background-size: cover;
     background-position: center;
 `;
 
 const TitleButton = styled.a`
-    text-shadow: 1px 1px 10px rgba(0,0,0,0.75);
+    
     color: ${props => props.theme.white};
     text-transform: uppercase;
     cursor: pointer;
@@ -28,7 +29,7 @@ const TitleButton = styled.a`
         border-bottom: 4px solid ${props => props.theme.white};
         width: 0;
         transition: width 0.2s;
-        box-shadow: 1px 1px 10px rgba(0,0,0,0.75);
+        
     }
     &:hover>div{
         width: 100%;
@@ -46,13 +47,14 @@ const TitleButton = styled.a`
 
 const SectionContainer=styled.div`
     box-sizing: border-box;
-    background: rgba(0, 51, 160, 0.5);
+    border-top: 5px solid white;
     height: 100%;
     left: 0;
     padding: 0 3rem;
-    padding-top: 3rem;
+    margin-top: 10rem;
+    /*padding-top: 10rem;*/
     width: 30%;
-
+    
     @media only screen and (max-width: 500px){
         position: absolute;
         height: 30rem;
@@ -107,7 +109,7 @@ export default class Title extends React.Component {
             <TitleButton href={`/#${el === "A&E" ? "Arts and Entertainment" : el}`} key={i}><h2>{el}</h2><div/></TitleButton> 
         ))
         return(
-            <TitleWrapper>
+            <TitleWrapper img={ImgSrc}>
                 <SectionContainer>
                     {SectionButtons}
                 </SectionContainer>
