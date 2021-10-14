@@ -5,8 +5,7 @@ import Car from '../components/Car'
 
 const Wrap = styled.div`
     background-color: #69B3E799;
-    padding: 1rem 5rem;
-    padding-left: 2rem;
+    padding: 1.5rem 1.5rem;
     margin: 0;
     color: #707070;
 `;
@@ -15,18 +14,13 @@ const Title = styled.div`
     text-transform: uppercase;
     font-size: 3.5em;
     font-weight: bold;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 
     @media screen and (max-width: 768px) {
         font-size: 2rem;
     }
 `;
 
-const ArticleWrap = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-`;
 
 const Section = styled.div`
     margin: 5rem 0;
