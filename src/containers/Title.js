@@ -8,7 +8,11 @@ const TitleWrapper = styled.div`
     height: 100vh;
     /*display: flex;*/
     justify-content: space-between;
+<<<<<<< HEAD
     background-image: url(${props => props.img});
+=======
+    background: url('./IMG_2755.jpeg');
+>>>>>>> 0d37d2ae36e26142a18e586e00d09655baed6076
     background-size: cover;
     background-position: center;
 `;
