@@ -12,12 +12,9 @@ import SeniorAds from './containers/SeniorAds';
 import AdRow from './components/AdRow';
 
 const sectionNames = [
-  "Senior Columns",
-  "News",
+  "Spectrum",
   "Sports",
-  "A&E",
-  "Senior Ads",
-  "Acknowledgments"
+  "A&E"
 ]
 
 class App extends React.PureComponent {
@@ -111,8 +108,8 @@ class App extends React.PureComponent {
           <Articles 
             sections={[
               {
-                title: "News",
-                articles: GlobalData.News
+                title: "Spectrum",
+                articles: GlobalData.Spectrum
               },
               {
                 title: "Sports",

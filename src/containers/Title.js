@@ -7,7 +7,7 @@ const TitleWrapper = styled.div`
     height: 100vh;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../components/images/IMG_2755.png);
+    background: url('./IMG_2755.jpeg');
     background-size: cover;
     background-position: center;
 `;
