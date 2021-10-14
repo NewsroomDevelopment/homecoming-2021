@@ -74,7 +74,7 @@ const CommencementHeader=styled.div`
     right: 16px;
     font-family: brandon-grotesque;
     &>h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     @media only screen and (max-width: 1024px){
         word-wrap: break-word;
