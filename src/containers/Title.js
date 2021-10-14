@@ -7,7 +7,7 @@ const TitleWrapper = styled.div`
     height: 100vh;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3PZKZG7DNNDNXAOW47MFLTRJFE.jpg");
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../components/images/IMG_2755.png);
     background-size: cover;
     background-position: center;
 `;
