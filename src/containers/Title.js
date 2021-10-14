@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components'
-import ImgSrc from '../images/background.png';
+import ImgSrc_mobile from '../images/background.png';
+import ImgSrc_desktop from '../images/selfie.jpg';
+import {Desktop, MobileAndTablet} from 'react-responsive-simple'
 
 const TitleWrapper = styled.div`
     overflow: hidden;
@@ -112,18 +114,36 @@ export default class Title extends React.Component {
             <TitleButton href={`/#${el === "A&E" ? "Arts and Entertainment" : el}`} key={i}><h2>{el}</h2><div/></TitleButton> 
         ))
         return(
-            <TitleWrapper img={ImgSrc}>
-                <CommencementHeader><h1>Homecoming 2021</h1></CommencementHeader>
-                <SectionContainer>
-                    {SectionButtons}
-                </SectionContainer>
-                
-                <a href="https://www.columbiaspectator.com/">
-                    <Logo src="https://s3.amazonaws.com/year-in-review-assets/whitemasthead.png" />
-                </a>
-                {/* <Logo href="https://www.columbiaspectator.com/"/> */}
-                
-            </TitleWrapper>
+            <div>
+                <Desktop>
+                    <TitleWrapper img={ImgSrc_desktop}>
+                        <CommencementHeader><h1>Homecoming 2021</h1></CommencementHeader>
+                        <SectionContainer>
+                            {SectionButtons}
+                        </SectionContainer>
+                        
+                        <a href="https://www.columbiaspectator.com/">
+                            <Logo src="https://s3.amazonaws.com/year-in-review-assets/whitemasthead.png" />
+                        </a>
+                        {/* <Logo href="https://www.columbiaspectator.com/"/> */}
+                        
+                    </TitleWrapper>
+                </Desktop>
+            <MobileAndTablet>
+                <TitleWrapper img={ImgSrc_mobile}>
+                    <CommencementHeader><h1>Homecoming 2021</h1></CommencementHeader>
+                    <SectionContainer>
+                        {SectionButtons}
+                    </SectionContainer>
+                    
+                    <a href="https://www.columbiaspectator.com/">
+                        <Logo src="https://s3.amazonaws.com/year-in-review-assets/whitemasthead.png" />
+                    </a>
+                    {/* <Logo href="https://www.columbiaspectator.com/"/> */}
+                    
+                </TitleWrapper>
+            </MobileAndTablet>
+            </div>
         )
     }
 }
