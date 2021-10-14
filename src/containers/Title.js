@@ -115,7 +115,7 @@ export default class Title extends React.Component {
                     <Logo src="https://s3.amazonaws.com/year-in-review-assets/whitemasthead.png" />
                 </a>
                 {/* <Logo href="https://www.columbiaspectator.com/"/> */}
-                <CommencementHeader><h1>Commencement 2021</h1></CommencementHeader>
+                <CommencementHeader><h1>Homecoming 2021</h1></CommencementHeader>
             </TitleWrapper>
         )
     }
