@@ -90,7 +90,7 @@ const Logo = styled.img`
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 15rem;
+    width: 25rem;
 
     @media only screen and (max-width: 500px){
         margin: 1rem;
