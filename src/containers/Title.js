@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 import ImgSrc_mobile from '../images/background.png';
-import ImgSrc_desktop from '../images/selfie.jpg';
+import ImgSrc_desktop from '../images/background1.png';
 import {Desktop, MobileAndTablet} from 'react-responsive-simple'
 
 const TitleWrapper = styled.div`
