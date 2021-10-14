@@ -18,7 +18,7 @@ const HeaderWrapper = styled.div`
         position: sticky;
         align-self: flex-start;
         top: 0;
-        height: 100vh;
+        height: 130vh;
         align-items: center;
         color: ${props => props.theme.darkgray};
     }
@@ -103,7 +103,9 @@ export default class Section extends React.Component {
             {title: this.props.name,
             titleDesc: this.props.blurb,
             list: list,
-            ad: this.props.ad
+            ad: this.props.ad,
+            miniTitle: this.props.miniTitle
+            
             }
         ]
         const TitleCards = info.map(info => <TitleCard info = {info}/>)
@@ -119,7 +121,8 @@ export default class Section extends React.Component {
                                     <h1>{this.props.name}</h1>
                                 </HeaderMobileTitle>
                                 <HeaderMobileBlurb>
-                                    <h3>{this.props.blurb}</h3>
+                                    {/* <h3>{this.props.name}</h3> */}
+                                    <h1>{this.props.blurb}</h1>
                                 </HeaderMobileBlurb>
                             </HeaderWrapperMobile>
                         </MobileAndTablet>

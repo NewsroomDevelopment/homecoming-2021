@@ -63,9 +63,15 @@ export default class Objects extends React.Component {
                 <br/>
                 <Desc><h3>{this.props.info.titleDesc}</h3></Desc>
                 <br/>
-                <Categories>{lists}</Categories>
+                <Title><h2>{this.props.info.miniTitle}</h2></Title>
                 <br/>
+                {/* <Categories>{lists}</Categories> */}
+                {/* <br/> */}
+                {/* <br/> */}
                 {/* <Button href={this.props.info.printLink}><h3>SEE IT IN PRINT</h3></Button> */}
+                <a href="https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/">
+                    <img width = "700" src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"></img>
+                </a>
                 <Ad src={this.props.info.ad}></Ad>
             </BigPapa>	
 		)

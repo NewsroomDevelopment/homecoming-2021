@@ -12,7 +12,7 @@ import SeniorAds from './containers/SeniorAds';
 import AdRow from './components/AdRow';
 
 const sectionNames = [
-  "Senior Columns",
+  "Homecoming",
   "News",
   "Sports",
   "A&E",
@@ -34,10 +34,15 @@ class App extends React.PureComponent {
     };
 
     this.sections = {
-      "Senior Columns": {
-        description: "Members of Spectator’s graduating class reflect on what they’ve learned and how they’ve grown from their time at the organization.",
+      "Homecoming": {
+        description: "Across the 4 ...",
         ref: this.seniorColRef,
-        ad: "https://commencement2021.s3.amazonaws.com/TelAviv_ad.png"
+        miniTitle: "Photo Essay",
+        // link: "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/",
+        // img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"
+
+        // articles: GlobalData.Homecoming
+        // ad: "https://commencement2021.s3.amazonaws.com/TelAviv_ad.png"
       }
     };
   }
@@ -61,10 +66,10 @@ class App extends React.PureComponent {
   handleScroll(e){
     // const top1 = this.classDaysRef.current.offsetTop
     // const top2 = this.seniorProfRef.current.offsetTop
-    const top2 = this.seniorColRef.current.offsetTop
-    const currScroll = window.scrollY
-    const winHeight = window.innerHeight
-    const adjustedScroll = currScroll + 0.4 * winHeight
+    // const top2 = this.seniorColRef.current.offsetTop
+    // const currScroll = window.scrollY
+    // const winHeight = window.innerHeight
+    // const adjustedScroll = currScroll + 0.4 * winHeight
 
     // let scrollingUp = this.prevScroll > window.scrollY
 
@@ -78,16 +83,16 @@ class App extends React.PureComponent {
     //   this.setState({navActive: 2})
     // }
 
-    this.prevScroll = currScroll
+    // this.prevScroll = currScroll
   }
 
-  componentDidMount(){
-      window.addEventListener('scroll', this.handleScroll)
-  }
+  // componentDidMount(){
+  //     window.addEventListener('scroll', this.handleScroll)
+  // }
 
-  componentWillUnmount(){
-      window.removeEventListener('scroll', this.handleScroll);
-  }
+  // componentWillUnmount(){
+  //     window.removeEventListener('scroll', this.handleScroll);
+  // }
 
   render(){
     return (
@@ -101,9 +106,12 @@ class App extends React.PureComponent {
               <Section 
               name={section} 
               blurb={this.sections[section].description} 
-              ad={this.sections[section].ad}
+              // ad={this.sections[section].ad}
               data={GlobalData[section]} 
               _ref={this.sections[section].ref}
+              miniTitle={this.sections[section].miniTitle}
+              // link = "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/"
+              // img = "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"
             />
             ))
           }
