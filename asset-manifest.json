@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34de6062.chunk.css",
+    "main.js": "/static/js/main.6793870d.chunk.js",
+    "main.js.map": "/static/js/main.6793870d.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.b871a977.chunk.css": "/static/css/2.b871a977.chunk.css",
+    "static/js/2.e8f2054a.chunk.js": "/static/js/2.e8f2054a.chunk.js",
+    "static/js/2.e8f2054a.chunk.js.map": "/static/js/2.e8f2054a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c87b76066a7be425df937bd81ef66139.js": "/precache-manifest.c87b76066a7be425df937bd81ef66139.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b871a977.chunk.css.map": "/static/css/2.b871a977.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map",
+    "static/media/background.png": "/static/media/background.63bf78e3.png",
+    "static/media/background1.png": "/static/media/background1.0b82b3e3.png",
+    "static/media/styles.css": "/static/media/revicons.2feb69cc.eot"
+  }
+}
