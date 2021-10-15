@@ -3,7 +3,6 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyles, Theme } from './utils/Styles'
 import GlobalData from './utils/GlobalData'
 
-import Navbar from './components/Navbar'
 import Title from './containers/Title'
 import Section from './containers/Section'
 import Acknowledgements from './components/Acknowledgements'

@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import SectionArticle from '../components/SectionArticle';
 import Car from '../components/Car'
 
 const Wrap = styled.div`
