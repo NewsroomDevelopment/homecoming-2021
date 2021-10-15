@@ -7,7 +7,7 @@ import ArticleBox from '../components/ArticleBox.js'
 const SectionWrapper = styled.div`
     display: flex;
     justify-content: space-between;
-    background: ${props => props.theme.cream};
+    background: ${props => props.theme.white};
 `
 
 const HeaderWrapper = styled.div`
@@ -15,10 +15,9 @@ const HeaderWrapper = styled.div`
     width: 80%;
     @media only screen and (min-width: 992px) {
         display: inline-flex;
-        position: sticky;
         align-self: flex-start;
         top: 0;
-        height: 130vh;
+        height: 100vh;
         align-items: center;
         color: ${props => props.theme.darkgray};
     }
@@ -105,7 +104,6 @@ export default class Section extends React.Component {
             list: list,
             ad: this.props.ad,
             miniTitle: this.props.miniTitle
-            
             }
         ]
         const TitleCards = info.map(info => <TitleCard info = {info}/>)
@@ -114,20 +112,18 @@ export default class Section extends React.Component {
                     <HeaderWrapper>
                         {TitleCards}
                     </HeaderWrapper>
-                    <ArticlesWrapper>
+                     <ArticlesWrapper>
                         <MobileAndTablet>
-                            <HeaderWrapperMobile>
-                                <HeaderMobileTitle>
-                                    <h1>{this.props.name}</h1>
+                            <HeaderWrapperMobile> <HeaderMobileTitle>
+                                    <h1>{this.props.blurb}</h1>
                                 </HeaderMobileTitle>
                                 <HeaderMobileBlurb>
-                                    {/* <h3>{this.props.name}</h3> */}
-                                    <h1>{this.props.blurb}</h1>
+                                    <h1>{this.props.name}</h1>
                                 </HeaderMobileBlurb>
                             </HeaderWrapperMobile>
                         </MobileAndTablet>
                         {Articles}
-                    </ArticlesWrapper>
+                    </ArticlesWrapper>*/
                 </SectionWrapper>
         )
     }

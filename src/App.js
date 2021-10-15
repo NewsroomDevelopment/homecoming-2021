@@ -24,18 +24,18 @@ class App extends React.PureComponent {
     this.classDaysRef = React.createRef()
     this.seniorProfRef = React.createRef()
     this.seniorColRef = React.createRef()
-    this.handleScroll = this.handleScroll.bind(this)
-    this.navigateTo = this.navigateTo.bind(this)
-    this.prevScroll = 0
+    //this.handleScroll = this.handleScroll.bind(this)
+    //this.navigateTo = this.navigateTo.bind(this)
+    //this.prevScroll = 0
     this.state = {
       navActive: 0
     };
 
     this.sections = {
       "Homecoming": {
-        description: "Across the 4 ...",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         ref: this.seniorColRef,
-        miniTitle: "Photo Essay",
+        miniTitle: "PHOTO ESSAY",
         // link: "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/",
         // img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"
 
@@ -45,21 +45,21 @@ class App extends React.PureComponent {
     };
   }
 
-  navigateTo(i){
-    switch(i) {
-      case 0: 
-        window.scrollTo({top: this.classDaysRef.current.offsetTop, behavior: 'smooth'})
-        break
-      case 1:
-        window.scrollTo({top: this.seniorProfRef.current.offsetTop, behavior: 'smooth'})
-        break
-      case 2:
-        window.scrollTo({top: this.seniorColRef.current.offsetTop, behavior: 'smooth'})
-        break
-      default:
-        break
-    }
-  }
+  // navigateTo(i){
+  //   switch(i) {
+  //     case 0: 
+  //       window.scrollTo({top: this.classDaysRef.current.offsetTop, behavior: 'smooth'})
+  //       break
+  //     case 1:
+  //       window.scrollTo({top: this.seniorProfRef.current.offsetTop, behavior: 'smooth'})
+  //       break
+  //     case 2:
+  //       window.scrollTo({top: this.seniorColRef.current.offsetTop, behavior: 'smooth'})
+  //       break
+  //     default:
+  //       break
+  //   }
+  // }
 
   handleScroll(e){
     // const top1 = this.classDaysRef.current.offsetTop

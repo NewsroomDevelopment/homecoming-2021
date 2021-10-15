@@ -7,15 +7,12 @@ const BigPapa = styled.div`
     flex-direction: column;
     max-width: 40vw;
     margin-left: 2rem;
+    margin-top: 7rem;
 `
 const Title = styled.div`
     text-transform: capitalize;
     font-size: 3.5em;
-    font-weight: bold;
 
-    &>h1{
-        margin: 0;
-    }
 `
 
 const Categories = styled.div`
@@ -41,6 +38,7 @@ const Button = styled.a`
 
 const Desc = styled.div`
     font-size: 1.3em;
+    width: 36em;
 `
 
 const Ad = styled.img`
@@ -59,18 +57,18 @@ export default class Objects extends React.Component {
         else lists = "";
 		return (
 			<BigPapa>
-                <Title><h1>{this.props.info.title}</h1></Title>
+                <Title><h1 style={{color:"#a0c2df ",fontSize:"100px"}}>{this.props.info.title}</h1></Title>
                 <br/>
-                <Desc><h3>{this.props.info.titleDesc}</h3></Desc>
+                <Desc><h3 style={{fontSize:"20px"}}>{this.props.info.titleDesc}</h3></Desc>
                 <br/>
-                <Title><h2>{this.props.info.miniTitle}</h2></Title>
+                <Title><h2 style={{color:"#a0c2df ",fontSize:"50px"}}>{this.props.info.miniTitle}</h2></Title>
                 <br/>
                 {/* <Categories>{lists}</Categories> */}
                 {/* <br/> */}
                 {/* <br/> */}
                 {/* <Button href={this.props.info.printLink}><h3>SEE IT IN PRINT</h3></Button> */}
                 <a href="https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/">
-                    <img width = "700" src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"></img>
+                    <img width = "500" src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"></img>
                 </a>
                 <Ad src={this.props.info.ad}></Ad>
             </BigPapa>	

@@ -1,15 +1,5 @@
 const GlobalData = {
-    "Homecoming": [ 
-    ],
-    "Spectrum": [
-        {
-            title: "poop",
-            link: "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/",
-            author: "POOPY POOP",
-            img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"
-        }
-    ],
-    "Senior Columns": [
+    "Homecoming": [
         {
             title: "If you’re reading this, it’s late",
             link: "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/",
@@ -34,18 +24,14 @@ const GlobalData = {
             author: "Jazilah Salam",
             img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MHAIMZ4QKNG4DIWXEKPG4R4YT4.jpg"
         },
-        // {
-        //     title: "AJ McDougall Is Not A Senior",
-        //     link: "https://www.columbiaspectator.com/the-eye/2021/04/29/senior-column-aj-mcdougall-is-not-a-senior/",
-        //     author: "AJ McDougall",
-        //     img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/V5WDP5ZV7NCUJAFSJQ2YNHAN3Q.jpg"
-        // },
-        // {
-        //     title: "When there was Columbia blue",
-        //     link: "https://www.columbiaspectator.com/opinion/2021/04/13/when-there-was-columbia-blue/",
-        //     author: "Jacob Mazzarella",
-        //     img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N2Y4KDILS5D2POYNYPHN4X6J34.jpg"
-        // },
+    ],
+    "Spectrum": [
+        {
+            title: "poop",
+            link: "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/",
+            author: "POOPY POOP",
+            img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"
+        }
     ],
     "News": [
         {

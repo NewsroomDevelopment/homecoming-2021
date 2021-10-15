@@ -5,27 +5,31 @@ export const GlobalStyles = createGlobalStyle`
     h1 {
         font-family: brandon-grotesque;
         font-weight: 700;
-        font-style: normal;
+        fontStyle: bold;
         font-size: 4rem;
-        line-height: 3.8rem;
-        margin-bottom: 3rem;
+        line-height: 1rem;
         text-transform: uppercase;
+        @media (max-width: 767px) {
+            font-size: 1rem;
+        }
     }
     h2 {
-        font-family: filson-pro;
+        font-family: brandon-grotesque;
         font-weight: 700;
-        font-style: normal;
+        fontStyle: bold;
         font-size: 1.5rem;
         margin-bottom: 1rem;
+        @media (max-width: 767px) {
+            font-size: 1rem;
+        }
     }
     h3 {
         font-family: brandon-grotesque;
         font-weight: 700;
-        font-style: normal;
+        fontStyle: bold;
         font-size: .7rem;
         margin: 0;
-        text-transform: uppercase;
-        @media only screen and (min-width: 992px){
+        @media (max-width: 767px) {
             font-size: 1rem;
         }
     }
