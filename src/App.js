@@ -12,12 +12,11 @@ import SeniorAds from './containers/SeniorAds';
 import AdRow from './components/AdRow';
 
 const sectionNames = [
-  "Senior Columns",
-  "News",
   "Sports",
   "A&E",
-  "Senior Ads",
-  "Acknowledgments"
+  "Spectrum",
+  "Opinion",
+  "Photo"
 ]
 
 class App extends React.PureComponent {
