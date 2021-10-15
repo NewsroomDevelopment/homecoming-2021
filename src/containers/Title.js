@@ -8,7 +8,7 @@ const TitleWrapper = styled.div`
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    /*display: flex;*/
+    display: flex;
     justify-content: space-between;
     background-image: url(${props => props.img});
     background-size: cover;
