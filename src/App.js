@@ -14,7 +14,10 @@ import AdRow from './components/AdRow';
 const sectionNames = [
   "Sports",
   "A&E",
-  "Acknowledgments"
+  "Acknowledgments",
+  "Spectrum",
+  "Opinion",
+  "Photo"
 ]
 
 class App extends React.PureComponent {
@@ -90,34 +93,44 @@ class App extends React.PureComponent {
     return (
       <ThemeProvider theme={Theme}>
         <React.Fragment>
-          <GlobalStyles/>
-          <Title sections={sectionNames} navigateTo={this.navigateTo}/>
+          <GlobalStyles />
+          <Title sections={sectionNames} navigateTo={this.navigateTo} />
           {/* <Navbar active={this.state.navActive} sections={Object.keys(this.sections)} navigateTo={this.navigateTo}/> */}
-          {
-            Object.keys(this.sections).map(section => (
-              <Section 
-              name={section} 
-              blurb={this.sections[section].description} 
+          {Object.keys(this.sections).map((section) => (
+            <Section
+              name={section}
+              blurb={this.sections[section].description}
               ad={this.sections[section].ad}
-              data={GlobalData[section]} 
+              data={GlobalData[section]}
               _ref={this.sections[section].ref}
             />
-            ))
-          }
+          ))}
           <AdRow />
-          <Articles 
+          <Articles
             sections={[
               {
                 title: "Sports",
-                articles: GlobalData.Sports
+                articles: GlobalData.Sports,
               },
               {
                 title: "Arts and Entertainment",
-                articles: GlobalData["Arts and Entertainment"]
+                articles: GlobalData["Arts and Entertainment"],
+              },
+              {
+                title: "Opinion",
+                articles: GlobalData.Opinion,
+              },
+              {
+                title: "Spectrum",
+                articles: GlobalData.Spectrum,
               }
+              // {
+              //   title: "Photo",
+              //   articles: GlobalData.Photo,
+              // },
             ]}
           />
-          <Acknowledgements/>
+          <Acknowledgements />
         </React.Fragment>
       </ThemeProvider>
     );

@@ -37,42 +37,6 @@ const GlobalData = {
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N2Y4KDILS5D2POYNYPHN4X6J34.jpg",
     },
   ],
-  Sports: [
-    {
-      title: "After 42 years, Columbia trainer Jim Gossett retires",
-      link: "https://www.columbiaspectator.com/main/2021/04/27/after-42-years-columbia-trainer-jim-gossett-retires/",
-      author: "Wick Hallos",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/W6EGDVNQCBAHJCOPNLJ5O367GA.gif",
-    },
-    {
-      title:
-        "‘His footprint is all over the program’: How Josh Wainwright broke records and spearheaded the revitalization of Columbia football",
-      link: "https://www.columbiaspectator.com/sports/2021/04/28/his-footprint-is-all-over-the-program-how-josh-wainwright-broke-records-and-spearheaded-the-revitalization-of-columbia-football/",
-      author: "Bernard Wang",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JO2PEX7OCZGFZKSDTXKWAZLALA.jpg",
-    },
-    {
-      title:
-        "Josh Nicoloff leads Columbia baseball by example, even after losing junior and senior seasons",
-      link: "https://www.columbiaspectator.com/main/2021/04/29/how-baseball-improvised-to-stay-together-and-improve-throughout-the-pandemic/",
-      author: "Robert Gao",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/L4M26QZYBBBRBKC5AE24EW2YEQ.jpg",
-    },
-    {
-      title:
-        "How baseball improvised to stay together and improve throughout the pandemic",
-      link: "https://www.columbiaspectator.com/sports/2021/04/28/josh-nicoloff-leads-columbia-baseball-by-example-even-after-losing-junior-and-senior-seasons/",
-      author: "Miles Schachner and Rebecca Wachen",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/U2ICLIGXYZDVNDQOBJZBUJDZ3E.gif",
-    },
-    {
-      title:
-        "Men’s basketball seniors reflect on overcoming adversity and the road ahead",
-      link: "https://www.columbiaspectator.com/main/2021/04/29/mens-basketball-seniors-reflect-on-overcoming-adversity-and-the-road-ahead/",
-      author: "Miles Schachner and Matthew Kim",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Z6RG7NX73ZHXBNLNNBCZTDMJ7M.jpg",
-    },
-  ],
   "Arts and Entertainment": [
     {
       title:
@@ -115,7 +79,7 @@ const GlobalData = {
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SQJ3AKINJVAODDD5GOE7UABUDI.jpg",
     },
   ],
-  "Spectrum": [
+  Spectrum: [
     {
       title: "Dining during Homecoming",
       link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/10/13/tales-of-nine-of-columbias-forgotten-fabled-restaurants/",
@@ -139,6 +103,84 @@ const GlobalData = {
       link: "https://www.columbiaspectator.com/spectrum/2016/10/19/pregame-playlist-getting-pumped-homecoming-weekend/",
       author: "Veronica Grace Taleon",
       img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6IO72NNVIREZ3JZIDHWXPUIYPY",
+    },
+  ],
+  Sports: [
+    {
+      title: "Homecoming Preview",
+      link: "https://www.columbiaspectator.com/sports/2019/10/19/football-defeats-penn-44-6-in-largest-homecoming-victory-in-programs-149-year-history/",
+      author: "Harris Walker and Elizabeth Karpen",
+      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
+    },
+    {
+      title: "Giving Day",
+      link: "https://www.columbiaspectator.com/sports/2019/10/19/football-defeats-penn-44-6-in-largest-homecoming-victory-in-programs-149-year-history/",
+      author: "Harris Walker and Elizabeth Karpen",
+      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
+    },
+    {
+      title: "1961 Matt's Huge Piece",
+      link: "https://www.columbiaspectator.com/sports/2019/10/19/football-defeats-penn-44-6-in-largest-homecoming-victory-in-programs-149-year-history/",
+      author: "Harris Walker and Elizabeth Karpen",
+      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
+    },
+    {
+      title:
+        "Football defeats Penn 44-6 in largest Homecoming victory in program’s 149-year history",
+      link: "https://www.columbiaspectator.com/sports/2019/10/19/football-defeats-penn-44-6-in-largest-homecoming-victory-in-programs-149-year-history/",
+      author: "Harris Walker and Elizabeth Karpen",
+      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
+    },
+    {
+      title:
+        "Columbia football is back. These are the players to watch this season",
+      link: "https://www.columbiaspectator.com/the-eye/2021/04/29/lessons-from-a-virtual-charli-xcx-concert/",
+      author: "Matthew Kim",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3XQQKHA3TBDS5ATFGCVRWZMHOI.jpg",
+    },
+    {
+      title: "How to do Homecoming if you're actually excited about it",
+      link: "https://www.columbiaspectator.com/spectrum/2016/10/20/your-homecoming-weekend-itinerary-whats-wheres-and-hows/",
+      author: "Stephanie Sloves",
+      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HFQ26I4J45DR5HHTJLO5WLW4IU",
+    },
+    {
+      title: "Amid challenges, assistant coaches drive every athlete forward",
+      link: "https://www.columbiaspectator.com/sports/2020/10/27/amid-challenges-assistant-coaches-drive-every-athlete-forward/",
+      author: "Matthew Kim",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XD2TFZY2CRGS5N5Q3A5JS6PQYY.jpg",
+    },
+    {
+      title: "Remembering Tyler Ugolyn, CC ’01, 20 years later",
+      link: "https://www.columbiaspectator.com/main/2021/09/14/remembering-tyler-ugolyn-cc-01-20-years-later/",
+      author: "Miles Schachner",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ADQXAT5DNBBQBKKNK3SCEKV4WA.jpg",
+    },
+    {
+      title: "Joe Green",
+      link: "https://www.columbiaspectator.com/sports/2019/10/19/football-defeats-penn-44-6-in-largest-homecoming-victory-in-programs-149-year-history/",
+      author: "Harris Walker and Elizabeth Karpen",
+      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
+    },
+  ],
+  Opinion: [
+    {
+      title: "Columbia does not deserve alumni donations",
+      link: "https://www.columbiaspectator.com/opinion/2021/04/01/columbia-does-not-deserve-alumni-donations/",
+      author: "Joel Berg",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VY5OFVDG5JAN5NCPLBYPGJEGWU.jpg",
+    },
+    {
+      title: "Columbia State University for a weekend",
+      link: "https://www.columbiaspectator.com/opinion/2015/10/22/columbia-state-university-weekend/",
+      author: "Angela Beam",
+      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JJTYHDO5Q5H4HBDIB4QP4WK4TQ",
+    },
+    {
+      title: "The stories that matter",
+      link: "https://www.columbiaspectator.com/opinion/2015/10/15/stories-matter/",
+      author: "Colin Valentini",
+      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RZU7SDXT45BKRMCNLMPOKJFTVE",
     },
   ],
 };
