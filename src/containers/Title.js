@@ -8,7 +8,7 @@ const TitleWrapper = styled.div`
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    /*display: flex;*/
+    display: flex;
     justify-content: space-between;
     background-image: url(${props => props.img});
     background-size: cover;
@@ -55,16 +55,17 @@ const SectionContainer=styled.div`
     padding: 0 3rem;
     margin-top: 10rem;
     /*padding-top: 10rem;*/
-    width: 30%;
+    width: 25%;
     
     @media only screen and (max-width: 500px){
         position: absolute;
         height: 30rem;
-        width: 100%;
-        top: 30%;
+        width: 50%;
+        top: 40%;
         left: 0;
     }
 `;
+
 
 const CommencementHeader=styled.div`
     color:white;
