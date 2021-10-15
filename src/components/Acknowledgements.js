@@ -16,7 +16,7 @@ const Wrapper =styled.div`
 const Title =styled.div`
     text-transform: uppercase;
     font-size: 1.6em;
-    color: #707070;
+    color: #ffffff;
     font-weight:900;
     margin-bottom: 2rem;
     @media only screen and (min-width:1200px){
@@ -44,14 +44,14 @@ const PanelContainer =styled.div`
 
 const Section =styled.div`
     font-size: 1.13rem;
-    color: #707070;
+    color: #ffffff;
     text-transform:uppercase;
     margin-bottom:.5rem;
 `;
 
 const Name =styled.div`
     font-size: .9rem;
-    color: black;
+    color: #ffffff;
     font-weight: bold;
     font-style: italic;
     white-space: pre;
@@ -64,7 +64,7 @@ const Name =styled.div`
 
 const Position =styled.div`
     font-size: .8rem;
-    color: black;
+    color: #ffffff;
     display: flex;
     align-items: flex-end;
     white-space: nowrap;
@@ -175,9 +175,9 @@ export default class Acknowledgements extends React.Component{
 
  
     render(){
-        var panel1 = ["Corporate Board", "News","A&E"];
-        var panel2 = ["Engineering","Product Design","Sports","Photo"];
-        var panel3 = ["Opinion","Copy","Revenue",];
+        var panel1 = ["Corporate Board", "A&E", "Opinion", "Revenue"];
+        var panel2 = ["Sports", "Engineering","Product Design",  "Photo"];
+        var panel3 = ["Newsroom Development", "Copy"];
         var panel4 = ["The Eye","Illustrations","Engagement"];
         
         return(
