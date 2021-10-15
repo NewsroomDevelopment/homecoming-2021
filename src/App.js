@@ -12,11 +12,8 @@ import SeniorAds from './containers/SeniorAds';
 import AdRow from './components/AdRow';
 
 const sectionNames = [
-  "Senior Columns",
-  "News",
   "Sports",
   "A&E",
-  "Senior Ads",
   "Acknowledgments"
 ]
 
@@ -111,10 +108,6 @@ class App extends React.PureComponent {
           <Articles 
             sections={[
               {
-                title: "News",
-                articles: GlobalData.News
-              },
-              {
                 title: "Sports",
                 articles: GlobalData.Sports
               },
@@ -122,33 +115,6 @@ class App extends React.PureComponent {
                 title: "Arts and Entertainment",
                 articles: GlobalData["Arts and Entertainment"]
               }
-            ]}
-          />
-          <SeniorAds 
-            ads={[
-              {
-                img: "https://commencement2021.s3.amazonaws.com/cho-ad.jpg",
-                title: "Henry Cho, Columbia College",
-                description: "Congratulations on your graduation!!",
-                longDescription: "We are so proud of the man you have become these last four years. Keep learning and growing! We are excited to see what the future has in store for you. Enjoy celebrating and be proud of your achievement. Love Mom, Dad and Christian"
-              },
-              {
-                img: "https://commencement2021.s3.amazonaws.com/malus-ad.JPG",
-                title: "Katherine Elise Malus, Columbia College",
-                description: "Congratulations!",
-                longDescription: `Katherine--Congratulations!  "The future belongs to those who believe in the beauty of their dreams."   You aim for success each day!  On to your next journey!  Nothing will stop Angel!  We wish you much love and success!  Dad, Mom, and Michael`
-              },
-              {
-                img: "https://commencement2021.s3.amazonaws.com/murillo-ad.jpeg",
-                title: "Marisa Murillo, SEAS Mechanical Engineering",
-                description: "Congratulations!- Mommy, Mia, Family & Friends"
-              },
-              {
-                img: "https://commencement2021.s3.amazonaws.com/ogawa-ad.jpg",
-                title: "Tiffany Grace Dimm, Columbia College",
-                description: "You made it!- Kazuko and Allen Dimm",
-                longDescription: "It has been a joy and an honor to watch you grow and achieve memorable successes. You have many great times ahead and we will be there every step of the way to cheer you on and celebrate with you. We are so proud of you. Congratulations!"
-              },
             ]}
           />
           <Acknowledgements/>
