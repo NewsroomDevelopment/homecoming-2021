@@ -61,7 +61,7 @@ const SectionContainer=styled.div`
         position: absolute;
         height: 30rem;
         width: 100%;
-        top: 30%;
+        top: 7%;
         left: 0;
     }
 `;
@@ -73,6 +73,7 @@ const CommencementHeader=styled.div`
     margin-right: 1rem;
     position: absolute;
     top: 8px;
+    line-height:1em;
     right: 16px;
     font-family: brandon-grotesque;
     &>h1 {
@@ -101,6 +102,9 @@ const Logo = styled.img`
 
     @media only screen and (max-width: 500px){
         margin: 1rem;
+        width:99%;
+        margin-left:auto;
+        margin-right:auto;
         top: inherit;
         right: inherit;
     }
@@ -131,7 +135,7 @@ export default class Title extends React.Component {
                 </Desktop>
             <MobileAndTablet>
                 <TitleWrapper img={ImgSrc_mobile}>
-                    <CommencementHeader><h1>Homecoming 2021</h1></CommencementHeader>
+                    <CommencementHeader><h1 style={{'line-height': '1em'}}>Homecoming 2021</h1></CommencementHeader>
                     <SectionContainer>
                         {SectionButtons}
                     </SectionContainer>

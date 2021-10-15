@@ -1,5 +1,6 @@
 const GlobalData = {
-    "Homecoming:" [{
+  Homecoming: [
+    {
       title: "If you’re reading this, it’s late",
       link: "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/",
       author: "Isabel Jauregui",
@@ -188,7 +189,7 @@ const GlobalData = {
       link: "https://www.columbiaspectator.com/opinion/2021/04/01/columbia-does-not-deserve-alumni-donations/",
       author: "Joel Berg",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VY5OFVDG5JAN5NCPLBYPGJEGWU.jpg",
-    }
+    },
   ],
 };
 export default GlobalData;

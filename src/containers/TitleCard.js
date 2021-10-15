@@ -63,12 +63,9 @@ export default class Objects extends React.Component {
                 <br/>
                 <Title><h2 style={{color:"#a0c2df ",fontSize:"50px"}}>{this.props.info.miniTitle}</h2></Title>
                 <br/>
-                {/* <Categories>{lists}</Categories> */}
-                {/* <br/> */}
-                {/* <br/> */}
-                {/* <Button href={this.props.info.printLink}><h3>SEE IT IN PRINT</h3></Button> */}
+                
                 <a href="https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/">
-                    <img width = "500" src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"></img>
+                    <img width = "500" alt="essay" src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"></img>
                 </a>
                 <Ad src={this.props.info.ad}></Ad>
             </BigPapa>	

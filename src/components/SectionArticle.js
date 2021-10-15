@@ -9,7 +9,7 @@ const Wrap = styled.div`
   background-size: cover;
   align-items: center;
   background-position: center;
-  text-decoration:none;
+  text-decoration: none;
   z-index: 1;
   background-image: url(${(props) => props.img});
   ::before {
@@ -31,7 +31,10 @@ const Wrap = styled.div`
     ::before {
       opacity: 1;
     }
-    text-decoration:none;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 500px) {
+    height: 40vh;
   }
 `;
 
@@ -69,7 +72,7 @@ const SectionArticle = ({ article }) => {
   };
   return (
     <Wrap onMouseEnter={onHover} onMouseLeave={onLeave} img={article.img}>
-      <Link style={{"text-decoration":"none"}} href={article.link}>
+      <Link style={{ "text-decoration": "none" }} href={article.link}>
         {hover && (
           <>
             <Info>
