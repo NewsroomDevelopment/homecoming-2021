@@ -13,6 +13,9 @@ export const GlobalStyles = createGlobalStyle`
             font-size: 1rem;
         }
     }
+    p {
+          font-family: brandon-grotesque;
+    }
     h2 {
         font-family: brandon-grotesque;
         font-weight: 700;
@@ -50,7 +53,7 @@ export const GlobalStyles = createGlobalStyle`
     a:hover {
         text-decoration: underline;
     }
-`
+`;
 
 export const Theme = {
     black: "#000000",

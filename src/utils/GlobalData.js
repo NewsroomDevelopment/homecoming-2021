@@ -1,40 +1,30 @@
 const GlobalData = {
   Homecoming: [
     {
-      title: "If you’re reading this, it’s late",
-      link: "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/",
-      author: "Isabel Jauregui",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg",
+      title:
+        "Grabbing a bite during Homecoming weekend on a Columbia meal plan",
+      link: "https://www.columbiaspectator.com/spectrum/2021/10/10/grabbing-a-bite-during-homecoming-weekend-on-a-columbia-meal-plan/",
+      author: "Aliza Rabinovitz",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VTFZPSTLBNDYBB43ULBYHMTIBU.jpg",
     },
     {
-      title: "Lessons From a Virtual Charli XCX Concert",
-      link: "https://www.columbiaspectator.com/the-eye/2021/04/29/lessons-from-a-virtual-charli-xcx-concert/",
-      author: "Eden Teferi",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FCDA6CQQ6VAPVIU7GM7B5JAJ3Q.png",
+      title:
+        "Smells like school spirit: A brief refresher about Homecoming at Columbia",
+      link: "https://www.columbiaspectator.com/spectrum/2021/10/11/smells-like-school-spirit-a-brief-refresher-about-homecoming-at-columbia/",
+      author: "Haley Long",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4ESJ3IXVLZAOXNIUERLL4QO43I.png",
     },
     {
-      title: "I Got a Dog (Among Other Things)",
-      link: "https://www.columbiaspectator.com/the-eye/2021/04/29/i-got-a-dog-among-other-things/",
-      author: "Candy Chan",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WUORGBBP3FEIVAS6Z44TE5RY7M.jpg",
+      title: "How to “win” Homecoming",
+      link: "https://www.columbiaspectator.com/spectrum/2019/10/09/how-to-win-homecoming/",
+      author: "Lina Bennani Karim",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/32HGINRIJVFFZMHR45EO7IFFJM.jpg",
     },
     {
-      title: "Catching the Columbia Blues",
-      link: "https://www.columbiaspectator.com/the-eye/2021/04/29/catching-the-columbia-blues/",
-      author: "Jazilah Salam",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MHAIMZ4QKNG4DIWXEKPG4R4YT4.jpg",
-    },
-    {
-      title: "AJ McDougall Is Not A Senior",
-      link: "https://www.columbiaspectator.com/the-eye/2021/04/29/senior-column-aj-mcdougall-is-not-a-senior/",
-      author: "AJ McDougall",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/V5WDP5ZV7NCUJAFSJQ2YNHAN3Q.jpg",
-    },
-    {
-      title: "When there was Columbia blue",
-      link: "https://www.columbiaspectator.com/opinion/2021/04/13/when-there-was-columbia-blue/",
-      author: "Jacob Mazzarella",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N2Y4KDILS5D2POYNYPHN4X6J34.jpg",
+      title: "Pregame Playlist: Getting pumped for Homecoming weekend",
+      link: "https://www.columbiaspectator.com/spectrum/2016/10/19/pregame-playlist-getting-pumped-homecoming-weekend/",
+      author: "Veronica Grace Taleon",
+      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6IO72NNVIREZ3JZIDHWXPUIYPY",
     },
   ],
   "Arts and Entertainment": [
@@ -79,50 +69,19 @@ const GlobalData = {
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SQJ3AKINJVAODDD5GOE7UABUDI.jpg",
     },
   ],
-  Spectrum: [
-    {
-      title: "Dining during Homecoming",
-      link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/10/13/tales-of-nine-of-columbias-forgotten-fabled-restaurants/",
-      author: "Emma Schartz",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SQJ3AKINJVAODDD5GOE7UABUDI.jpg",
-    },
-    {
-      title: "The tradition of Homecoming",
-      link: "https://www.columbiaspectator.com/spectrum/2019/10/09/how-to-win-homecoming/",
-      author: "Emma Schartz",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SQJ3AKINJVAODDD5GOE7UABUDI.jpg",
-    },
-    {
-      title: "How to “win” Homecoming",
-      link: "https://www.columbiaspectator.com/spectrum/2019/10/09/how-to-win-homecoming/",
-      author: "Lina Bennani Karim",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/32HGINRIJVFFZMHR45EO7IFFJM.jpg",
-    },
-    {
-      title: "Pregame Playlist: Getting pumped for Homecoming weekend",
-      link: "https://www.columbiaspectator.com/spectrum/2016/10/19/pregame-playlist-getting-pumped-homecoming-weekend/",
-      author: "Veronica Grace Taleon",
-      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6IO72NNVIREZ3JZIDHWXPUIYPY",
-    },
-  ],
   Sports: [
     {
       title: "Homecoming Preview",
       link: "https://www.columbiaspectator.com/sports/2019/10/19/football-defeats-penn-44-6-in-largest-homecoming-victory-in-programs-149-year-history/",
-      author: "Harris Walker and Elizabeth Karpen",
-      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
+      author: "Matthew Kim and Bernard Wang",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5HOYGIIE3RCVXPUQMFZWXDFAJI.jpg",
     },
     {
-      title: "Giving Day",
-      link: "https://www.columbiaspectator.com/sports/2019/10/19/football-defeats-penn-44-6-in-largest-homecoming-victory-in-programs-149-year-history/",
-      author: "Harris Walker and Elizabeth Karpen",
-      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
-    },
-    {
-      title: "1961 Matt's Huge Piece",
-      link: "https://www.columbiaspectator.com/sports/2019/10/19/football-defeats-penn-44-6-in-largest-homecoming-victory-in-programs-149-year-history/",
-      author: "Harris Walker and Elizabeth Karpen",
-      img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
+      title:
+        "60 years later: A look back at the 1961 football squad, Columbia’s one and only champion",
+      link: "https://www.columbiaspectator.com/sports/2021/10/14/60-years-later-a-look-back-at-the-1961-football-squad-columbias-one-and-only-champion/",
+      author: "Matthew Kim",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WZHBY65AFZELLLAHT3EQINXSZ4.jpg",
     },
     {
       title:
@@ -182,14 +141,14 @@ const GlobalData = {
       author: "Colin Valentini",
       img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RZU7SDXT45BKRMCNLMPOKJFTVE",
     },
-  ],
-  Photo: [
-    {
-      title: "Columbia does not deserve alumni donations",
-      link: "https://www.columbiaspectator.com/opinion/2021/04/01/columbia-does-not-deserve-alumni-donations/",
-      author: "Joel Berg",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VY5OFVDG5JAN5NCPLBYPGJEGWU.jpg",
-    },
-  ],
+  ]
+  // Photo: [
+  //   {
+  //     title: "Columbia does not deserve alumni donations",
+  //     link: "https://www.columbiaspectator.com/opinion/2021/04/01/columbia-does-not-deserve-alumni-donations/",
+  //     author: "Joel Berg",
+  //     img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VY5OFVDG5JAN5NCPLBYPGJEGWU.jpg",
+  //   },
+  // ],
 };
 export default GlobalData;

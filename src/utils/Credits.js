@@ -55,26 +55,6 @@ const Credits = {
       title: "Staff Writer",
     },
   ],
-  Revenue: [
-    {
-      name: "Joy Fan",
-      title: "Revenue Director",
-    },
-    {
-      name: "Vilanna Wang",
-      title: "Revenue Project Manager",
-    },
-  ],
-  "The Eye": [
-    {
-      name: "Cole Cahill",
-      title: "Lead Story Editor",
-    },
-    {
-      name: "Teresa Lawlor",
-      title: "View From Here Editor",
-    },
-  ],
   Copy: [
     { name: "Emma Bradbury", title: "Head Copy Editor" },
     { name: "Kaylene Chong", title: "Deputy Copy Editor" },
@@ -99,24 +79,32 @@ const Credits = {
     { name: "Abby Sim ", title: "Preslotter" },
     { name: "Adam Burns ", title: "Preslotter" },
     { name: "Joyce Liu", title: "Preslotter" },
-    { name: "Ana Eveleigh ", title: "Trainee " },
-    { name: "Bonnie Yang ", title: "Trainee " },
-    { name: "Emma Grungold ", title: "Trainee " },
-    { name: "Grace O'Malley", title: "Trainee" },
-    { name: "Lanah Wyne ", title: "Trainee " },
-    { name: "Maya Platek ", title: "Trainee " },
-    { name: "Meera Sahney ", title: "Trainee " },
-    { name: "Natarsha Yan ", title: "Trainee " },
-    { name: "Ronit Dhulia ", title: "Trainee " },
-    { name: "Sadie Rochman ", title: "Trainee" },
-    { name: "Safia Aladlouni ", title: "Trainee" },
-    { name: "Victoria Esquibies ", title: "Trainee " },
-    { name: "Yvin Shin ", title: "Trainee " },
+    // { name: "Ana Eveleigh ", title: "Trainee " },
+    // { name: "Bonnie Yang ", title: "Trainee " },
+    // { name: "Emma Grungold ", title: "Trainee " },
+    // { name: "Grace O'Malley", title: "Trainee" },
+    // { name: "Lanah Wyne ", title: "Trainee " },
+    // { name: "Maya Platek ", title: "Trainee " },
+    // { name: "Meera Sahney ", title: "Trainee " },
+    // { name: "Natarsha Yan ", title: "Trainee " },
+    // { name: "Ronit Dhulia ", title: "Trainee " },
+    // { name: "Sadie Rochman ", title: "Trainee" },
+    // { name: "Safia Aladlouni ", title: "Trainee" },
+    // { name: "Victoria Esquibies ", title: "Trainee " },
+    // { name: "Yvin Shin ", title: "Trainee " },
   ],
   "Product Design": [
     {
       name: "Cindy Espinosa",
       title: "Head of Product",
+    },
+    {
+      name: "Sagarika Sharma",
+      title: "Deputy Product Designer",
+    },
+    {
+      name: "Raymond Banke",
+      title: "Deputy Product Designer",
     },
   ],
   Engineering: [
@@ -124,6 +112,18 @@ const Credits = {
       name: "Erin McNulty",
       title: "Head of Engineering",
     },
+  ],
+  Spectrum: [
+    { name: "Ariana Novo", title: "Spectrum Editor" },
+    {
+      name: "Swethaa Suresh",
+      title: "Deputy Spectrum Editor",
+    },
+    {
+      name: "Aliza Rabinovitz",
+      title: "Deputy Spectrum Editor",
+    },
+    { name: "Haley Long", title: "Staff Writer" },
   ],
   "Newsroom Development": [
     {
@@ -180,21 +180,25 @@ const Credits = {
       name: "Julien Roa",
       title: "Associate Editorial Page Editor",
     },
-  ],
-  Illustrations: [
     {
-      name: "Brenda Huang",
-      title: "Illustrations Editor",
-    },
-    {
-      name: "Liza Evseeva",
-      title: "Deputy Illustrations Editor",
-    },
-    {
-      name: "Carlos Ochoa",
-      title: "Deputy Illustrations Editor",
+      name: "John Towfighi",
+      title: "Associate Editorial Page Editor",
     },
   ],
+//   Illustrations: [
+//     {
+//       name: "Brenda Huang",
+//       title: "Illustrations Editor",
+//     },
+//     {
+//       name: "Liza Evseeva",
+//       title: "Deputy Illustrations Editor",
+//     },
+//     {
+//       name: "Carlos Ochoa",
+//       title: "Deputy Illustrations Editor",
+//     },
+//   ],
   Sports: [
     {
       name: "Mackenzie George",
@@ -285,55 +289,55 @@ const Credits = {
       title: "Columbia Daily Spectator",
     },
   ],
-  Engagement: [
-    {
-      name: "Roxane Carre",
-      title: "Engagement Director",
-    },
-    {
-      name: "Evan Kong",
-      title: "Engagement Manager",
-    },
-    {
-      name: "Jake Fisher",
-      title: "Engagement Manager",
-    },
-    {
-      name: "Mars Hu",
-      title: "Engagement Analyst",
-    },
-    {
-      name: "Kailin Huang",
-      title: "Engagement Analyst",
-    },
-    {
-      name: "Ravneek Kaur",
-      title: "Engagement Analyst",
-    },
-    {
-      name: "Jeannette Kim",
-      title: "Engagement Analyst",
-    },
-    {
-      name: "Hannah Lederman",
-      title: "Engagement Analyst",
-    },
-    {
-      name: "Kamryn Sonson",
-      title: "Engagement Analyst",
-    },
-    {
-      name: "Shane Spring",
-      title: "Engagement Analyst",
-    },
-    {
-      name: "Samantha Turk",
-      title: "Engagement Analyst",
-    },
-    {
-      name: "Edgardo Zelaya",
-      title: "Engagement Analyst",
-    },
-  ],
+//   Engagement: [
+//     {
+//       name: "Roxane Carre",
+//       title: "Engagement Director",
+//     },
+//     {
+//       name: "Evan Kong",
+//       title: "Engagement Manager",
+//     },
+//     {
+//       name: "Jake Fisher",
+//       title: "Engagement Manager",
+//     },
+//     {
+//       name: "Mars Hu",
+//       title: "Engagement Analyst",
+//     },
+//     {
+//       name: "Kailin Huang",
+//       title: "Engagement Analyst",
+//     },
+//     {
+//       name: "Ravneek Kaur",
+//       title: "Engagement Analyst",
+//     },
+//     {
+//       name: "Jeannette Kim",
+//       title: "Engagement Analyst",
+//     },
+//     {
+//       name: "Hannah Lederman",
+//       title: "Engagement Analyst",
+//     },
+//     {
+//       name: "Kamryn Sonson",
+//       title: "Engagement Analyst",
+//     },
+//     {
+//       name: "Shane Spring",
+//       title: "Engagement Analyst",
+//     },
+//     {
+//       name: "Samantha Turk",
+//       title: "Engagement Analyst",
+//     },
+//     {
+//       name: "Edgardo Zelaya",
+//       title: "Engagement Analyst",
+//     },
+//   ],
 };
 export default Credits;

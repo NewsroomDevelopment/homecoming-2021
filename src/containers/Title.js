@@ -69,7 +69,7 @@ const SectionContainer=styled.div`
 const CommencementHeader=styled.div`
     color:white;
     text-transform: uppercase;
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-right: 1rem;
     position: absolute;
     top: 8px;
@@ -135,7 +135,7 @@ export default class Title extends React.Component {
                 </Desktop>
             <MobileAndTablet>
                 <TitleWrapper img={ImgSrc_mobile}>
-                    <CommencementHeader><h1 style={{'line-height': '1em'}}>Homecoming 2021</h1></CommencementHeader>
+                    <CommencementHeader><h1 style={{'line-height': '1.5em'}}>Homecoming 2021</h1></CommencementHeader>
                     <SectionContainer>
                         {SectionButtons}
                     </SectionContainer>

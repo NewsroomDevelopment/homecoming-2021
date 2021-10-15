@@ -169,15 +169,9 @@ const dev_creds = [
 
 export default class Acknowledgements extends React.Component {
   render() {
-    var panel1 = ["Corporate Board", "A&E", "Opinion", "Revenue"];
-    var panel2 = ["Sports", "Engineering", "Product Design", "Photo"];
-    var panel3 = [
-      "Newsroom Development",
-      "The Eye",
-      "Illustrations",
-      "Engagement",
-    ];
-    var panel4 = ["Copy"];
+    var panel1 = ["Corporate Board", "Spectrum", "A&E", "Newsroom Development"];
+    var panel2 = ["Sports", "Engineering", "Product Design", "Photo", ];
+    var panel3 = ["Opinion", "Copy"];
 
     return (
       <Wrapper id="Acknowledgments">
@@ -199,11 +193,11 @@ export default class Acknowledgements extends React.Component {
                 <Division key={i + 200} section={element} />
               ))}
             </Panel>
-            <Panel>
+            {/* <Panel>
               {panel4.map((element, i) => (
                 <Division key={i + 300} section={element} />
               ))}
-            </Panel>
+            </Panel> */}
           </PanelContainer>
         </Desktop>
         <MobileAndTablet>
@@ -212,7 +206,7 @@ export default class Acknowledgements extends React.Component {
               {panel1
                 .concat(panel2)
                 .concat(panel3)
-                .concat(panel4)
+                // .concat(panel4)
                 .map((element, x) => (
                   <Division section={element} />
                 ))}

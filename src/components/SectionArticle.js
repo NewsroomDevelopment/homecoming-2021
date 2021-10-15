@@ -7,7 +7,6 @@ const Wrap = styled.div`
   position: relative;
   display: flex;
   background-size: cover;
-  align-items: center;
   background-position: center;
   text-decoration: none;
   z-index: 1;
@@ -45,22 +44,28 @@ const Title = styled.div`
   text-align: center;
   position: relative;
   display: flex;
+  margin-top:10%;
   justify-content: center;
 `;
 
 const Info = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
 `;
 
 const Link = styled.a`
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100%;
   width: 100%;
 `;
 
+const Author = styled.p`
+color:white;
+
+`;
 const SectionArticle = ({ article }) => {
   const [hover, setHover] = useState(false);
   const onHover = () => {
@@ -77,8 +82,8 @@ const SectionArticle = ({ article }) => {
           <>
             <Info>
               <Title>{article.title}</Title>
+              <Author>By {article.author}</Author>
             </Info>
-            )
           </>
         )}
       </Link>

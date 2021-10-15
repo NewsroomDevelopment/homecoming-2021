@@ -10,19 +10,21 @@ const Wrap = styled.div`
 `;
 
 const Title = styled.div`
-    text-transform: uppercase;
-    font-size: 3.5em;
-    font-weight: bold;
-    padding-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  color: white;
+  font-family: brandon-grotesque;
 
-    @media screen and (max-width: 768px) {
-        font-size: 2rem;
-    }
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 
 const Section = styled.div`
-    margin: 5rem 0;
+    margin: 2rem 0;
 `;
 
 

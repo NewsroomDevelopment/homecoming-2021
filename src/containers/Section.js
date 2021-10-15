@@ -17,7 +17,6 @@ const HeaderWrapper = styled.div`
     display: inline-flex;
     align-self: flex-start;
     top: 0;
-    height: 100vh;
     align-items: center;
     color: ${(props) => props.theme.darkgray};
   }
@@ -52,7 +51,7 @@ const HeaderMobileTitle = styled.div`
   max-width: 100vw;
   text-align: center;
   margin: 0;
-  font-size:2rem;
+  font-size: 2rem;
   padding: 2rem 0;
   background: ${(props) => props.theme.babyBlue};
   color: ${(props) => props.theme.cream};
@@ -63,29 +62,29 @@ const HeaderMobileTitle = styled.div`
 
 const HeaderMobileBlurb = styled.div`
   max-width: 100vw;
-  text-align: center;
   padding: 1rem;
   background: ${(props) => props.theme.cream};
   color: ${(props) => props.theme.darkgray};
   & > h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: none;
     font-weight: 600;
   }
+  white-space: pre-wrap;
 `;
 
 const Title = styled.div`
   text-transform: capitalize;
   font-size: 3.5em;
   margin-top: 0px;
-  text-align:center;
+  text-align: center;
 `;
 
 const ArticlesWrapper = styled.div`
   width: 100vw;
   @media only screen and (min-width: 992px) {
     display: inline-block;
-    width: 35vw;
+    width: 40vw;
     padding: 4rem 0;
     /* background: ${(props) => props.theme.babyBlue}; */
   }
@@ -129,25 +128,33 @@ export default class Section extends React.Component {
             <HeaderWrapperMobile>
               {" "}
               <HeaderMobileTitle>
-                <h1 style={{fontSize:"1.5em"}}>{this.props.name}</h1>
+                <h1 style={{ fontSize: "1.5em" }}>{this.props.name}</h1>
               </HeaderMobileTitle>
               <HeaderMobileBlurb>
-                <h1>{this.props.blurb}</h1>
+                <h3>{this.props.blurb}</h3>
               </HeaderMobileBlurb>
             </HeaderWrapperMobile>
+            <Title>
+              <h2
+                style={{
+                  color: "#a0c2df ",
+                  fontSize: "30px",
+                  marginTop: "0px",
+                }}
+              >
+                Photo Essay (Coming Soon)
+              </h2>
+            </Title>
+            <MobilePhotoEssay>
+              {/* <a href="https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/">
+                <img
+                  width="350"
+                  alt="essay"
+                  src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"
+                ></img>
+              </a> */}
+            </MobilePhotoEssay>
           </MobileAndTablet>
-          <Title>
-            <h2 style={{ color: "#a0c2df ", fontSize: "50px", marginTop:"0px" }}>Photo Essay</h2>
-          </Title>
-          <MobilePhotoEssay>
-            <a href="https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/">
-              <img
-                width="350"
-                alt="essay"
-                src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"
-              ></img>
-            </a>
-          </MobilePhotoEssay>
           {Articles}
         </ArticlesWrapper>
       </SectionWrapper>

@@ -7,16 +7,12 @@ import Title from "./containers/Title";
 import Section from "./containers/Section";
 import Acknowledgements from "./components/Acknowledgements";
 import Articles from "./containers/Articles";
-import SeniorAds from "./containers/SeniorAds";
-import AdRow from "./components/AdRow";
 
 const sectionNames = [
   "Homecoming",
   "Sports",
   "A&E",
-  "Spectrum",
   "Opinion",
-  "Photo",
   "Acknowledgments",
 ];
 
@@ -34,8 +30,9 @@ class App extends React.PureComponent {
     };
 
     this.sections = {
-      "Homecoming": {
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      Homecoming: {
+        description:
+          "Dear readers, \n \nMore than ever, this year’s Homecoming truly feels like coming home. Many of us spent last year away from Morningside Heights, creating a Columbia community from the confines of our bedrooms. While not back in full swing, after 18 months we are back to campus, back to the Baker Athletics Complex, and most importantly, back to being a unified community. \n\n At Spectator, we have used our year of remote learning to reevaluate what it means to be a Columbia student and a member of the greater Morningside Heights and West Harlem communities. Despite being back on campus, many students from all class years still struggle with feeling fully ingrained at Columbia. Homecoming weekend serves as a time to come together and to help find your community whether you are a first-year, senior, or even an alum.\n\nWhether you are the biggest Columbia Lions fan out there, or have never stepped foot near a football stadium, we hope this edition shows you that Homecoming is more than just watching the Light Blue play against Penn. It’s about looking back at memories at the University, but also looking forward.\n\n We invite you to take a look back on the stories that have shaped Homecoming this year, prepare for Saturday afternoon’s game, and reflect on the last 250 years of education and community. \n\nSarah Braka, \nEditor in Chief, President\nLizzie Karpen,\nManaging Editor, Vice President",
         ref: this.seniorColRef,
         miniTitle: "PHOTO ESSAY",
         // link: "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/",
@@ -118,7 +115,6 @@ class App extends React.PureComponent {
               // img = "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"
             />
           ))}
-          <AdRow />
           <Articles
             sections={[
               {
@@ -130,17 +126,13 @@ class App extends React.PureComponent {
                 articles: GlobalData["Arts and Entertainment"],
               },
               {
-                title: "Spectrum",
-                articles: GlobalData.Spectrum,
-              },
-              {
                 title: "Opinion",
                 articles: GlobalData.Opinion,
               },
-              {
-                title: "Photo",
-                articles: GlobalData.Photo,
-              },
+              // {
+              //   title: "Photo",
+              //   articles: GlobalData.Photo,
+              // },
             ]}
           />
           <Acknowledgements />
