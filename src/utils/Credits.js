@@ -11,7 +11,7 @@ const Credits = {
         {
             name: "Tamarah Wallace",
             title: "Publisher"
-        },
+        }
     ],
     "News": [
         {
@@ -45,7 +45,7 @@ const Credits = {
         {
             name: "Ashley Yung",
             title: "Staff Writer"
-        },
+        }
     ],
     "A&E": [
         {
@@ -53,11 +53,11 @@ const Credits = {
             title: "A&E Editor"
         },
         {
-            name: "Olivia Doyle",
+            name: "Bella Druckman",
             title: "Deputy A&E Editor"
         },
         {
-            name: "Bella Druckman",
+            name: "Olivia Doyle",
             title: "Deputy A&E Editor"
         },
         {
@@ -65,12 +65,8 @@ const Credits = {
             title: "Deputy A&E Editor"
         },
         {
-            name: "Esterah Brown",
-            title: "Staff Writer"
-        },
-        {
             name: "Sophie Craig",
-            title: "Staff Writer"
+            title: "Deputy A&E Editor"
         },
          {
             name: "Emma Danon",
@@ -81,11 +77,15 @@ const Credits = {
             title: "Staff Writer"
         },
          {
-            name: "Liz Radway",
+            name: "Emma Schartz",
             title: "Staff Writer"
         },
         {
-            name: "Clare Donaldson",
+            name: "Holly Qu",
+            title: "Staff Writer"
+        },
+        {
+            name: "Julia Tong",
             title: "Staff Writer"
         }
     ],
@@ -97,7 +97,7 @@ const Credits = {
         {
             name: "Vilanna Wang",
             title: "Revenue Project Manager"
-        },
+        }
     ],
     "The Eye": [
         {
@@ -107,7 +107,7 @@ const Credits = {
         {
             name: "Teresa Lawlor",
             title: "View From Here Editor"
-        },
+        }
     ],
     "Copy": [
         {
@@ -165,25 +165,75 @@ const Credits = {
         {
             name: "Zoe Yin",
             title: "Preslotter"
-        },
+        }
     ],
     "Product Design": [
         {
             name: "Cindy Espinosa",
             title: "Head of Product"
-        },
+        }
     ],
     "Engineering": [
         {
             name: "Erin McNulty",
             title: "Head of Engineering"
+        }
+    ],
+    "Newsroom Development": [
+        {
+            name: "Hong Sen Du",
+            title: "Head of Newsroom Development"
         },
+         {
+            name: "Victoria Geh",
+            title: "Deputy Newsroom Developer"
+        },
+        {
+            name: "Evan Li",
+            title: "Deputy Newsroom Developer"
+        },
+        {
+            name: "Patrick Puma",
+            title: "Deputy Newsroom Developer"
+        },
+        {
+            name: "Elaine Lee",
+            title: "Newsroom Developer"
+        },
+        {
+            name: "Gulshan Meem",
+            title: "Newsroom Developer"
+        },
+        {
+            name: "Kevin Wang",
+            title: "Newsroom Developer"
+        },
+        {
+            name: "Noah Bergam",
+            title: "Newsroom Development Trainee"
+        },
+        {
+            name: "Joonsoo Lee",
+            title: "Newsroom Development Trainee"
+        },
+        {
+            name: "James Yiu",
+            title: "Newsroom Development Trainee"
+        }
     ],
     "Opinion": [
         {
             name: "Ryan Oden",
             title: "Editorial Page Editor"
         },
+        {
+            name: "Senem Yurdakul",
+            title: "Deputy Editorial Page Editor"
+        },
+        {
+            name: "Julien Roa",
+            title: "Associate Editorial Page Editor"
+        }
     ],
     "Illustrations": [
         {
@@ -197,7 +247,7 @@ const Credits = {
         {
             name: "Carlos Ochoa",
             title: "Deputy Illustrations Editor"
-        },
+        }
     ],
     "Sports": [
         {
@@ -217,21 +267,35 @@ const Credits = {
             title: "Deputy Sports Editor"
         },
         {
-            name: "Robert Gao",
-            title: "Staff Writer"
-        },
-         {
-            name: "Wick Hallos",
-            title: "Staff Writer"
+            name: "Jorge Hernandez",
+            title: "Deputy Sports Editor"
         },
         {
-            name: "Rebecca Wachen",
-            title: "Staff Writer"
-        },
-         {
             name: "Bernard Wang",
             title: "Staff Writer"
+        }
+    ],
+    "Graphics": [
+        {
+            name: "Jessica Li",
+            title: "Graphics Editor"
         },
+         {
+            name: "Charlotte Li",
+            title: "Deputy Graphics Editor"
+        },
+         {
+            name: "Andrew Park",
+            title: "Graphics Reporter"
+        },
+        {
+            name: "Leela Chari",
+            title: "Graphics Reporter"
+        },
+        {
+            name: "Amanda Cassel",
+            title: "Columbia Daily Spectator"
+        }
     ],
     "Photo": [
         {
@@ -239,33 +303,41 @@ const Credits = {
             title: "Photo Editor"
         },
         {
-            name: "Millie Felder",
-            title: "Deputy Photo Editor"
+            name: "Rommel Nunez",
+            title: "Deputy News Photo Editor"
         },
         {
-            name: "Ryan Balderas",
-            title: "Staff Videographer"
+            name: "Millie Felder",
+            title: "Deputy A&E Photo Editor"
+        },
+        {
+            name: "Kate Della Pietra",
+            title: "Deputy Opinion Photo Editor "
         },
         {
             name: "Samantha Camacho",
-            title: "Staff Photographer"
+            title: "Deputy Spectrum Photo Editor"
+        },
+        {
+            name: "Gabi Levy",
+            title: "Senior Staff Photographer"
         },
         {
             name: "Kathy Fang",
             title: "Staff Photographer"
         },
         {
-            name: "Rommel Nunez",
-            title: "Staff Photographer"
-        },
-        {
-            name: "Joao Santos",
-            title: "Staff Photographer"
-        },
-        {
             name: "Selina Yang",
             title: "Staff Photographer"
         },
+        {
+            name: "Judy Goldstein",
+            title: "Columbia Daily Spectator"
+        },
+        {
+            name: "Kat St. Martin",
+            title: "Columbia Daily Spectator"
+        }
     ],
     "Engagement": [
         {
@@ -315,7 +387,7 @@ const Credits = {
         {
             name: "Edgardo Zelaya",
             title: "Engagement Analyst"
-        },
+        }
     ]
 }
 export default Credits;
