@@ -1,5 +1,15 @@
 const GlobalData = {
-    "Homecoming": [
+    "Homecoming": [ 
+    ],
+    "Spectrum": [
+        {
+            title: "poop",
+            link: "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/",
+            author: "POOPY POOP",
+            img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5AJHA7YTUNEJLOO4XNLCT7NPEE.jpg"
+        }
+    ],
+    "Senior Columns": [
         {
             title: "If you’re reading this, it’s late",
             link: "https://www.columbiaspectator.com/the-eye/2021/04/29/if-youre-reading-this-its-late/",

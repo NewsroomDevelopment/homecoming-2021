@@ -3,7 +3,6 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyles, Theme } from './utils/Styles'
 import GlobalData from './utils/GlobalData'
 
-import Navbar from './components/Navbar'
 import Title from './containers/Title'
 import Section from './containers/Section'
 import Acknowledgements from './components/Acknowledgements'
@@ -14,10 +13,9 @@ import AdRow from './components/AdRow';
 const sectionNames = [
   "Homecoming",
   "News",
+  "Spectrum",
   "Sports",
-  "A&E",
-  "Senior Ads",
-  "Acknowledgments"
+  "A&E"
 ]
 
 class App extends React.PureComponent {
@@ -119,8 +117,8 @@ class App extends React.PureComponent {
           <Articles 
             sections={[
               {
-                title: "News",
-                articles: GlobalData.News
+                title: "Spectrum",
+                articles: GlobalData.Spectrum
               },
               {
                 title: "Sports",

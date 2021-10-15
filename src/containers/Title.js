@@ -1,19 +1,22 @@
 import React from 'react';
 import styled from 'styled-components'
+import ImgSrc_mobile from '../images/background.png';
+import ImgSrc_desktop from '../images/background1.png';
+import {Desktop, MobileAndTablet} from 'react-responsive-simple'
 
 const TitleWrapper = styled.div`
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3PZKZG7DNNDNXAOW47MFLTRJFE.jpg");
+    background-image: url(${props => props.img});
     background-size: cover;
     background-position: center;
 `;
 
 const TitleButton = styled.a`
-    text-shadow: 1px 1px 10px rgba(0,0,0,0.75);
+    
     color: ${props => props.theme.white};
     text-transform: uppercase;
     cursor: pointer;
@@ -28,7 +31,7 @@ const TitleButton = styled.a`
         border-bottom: 4px solid ${props => props.theme.white};
         width: 0;
         transition: width 0.2s;
-        box-shadow: 1px 1px 10px rgba(0,0,0,0.75);
+        
     }
     &:hover>div{
         width: 100%;
@@ -46,13 +49,14 @@ const TitleButton = styled.a`
 
 const SectionContainer=styled.div`
     box-sizing: border-box;
-    background: rgba(0, 51, 160, 0.5);
+    border-top: 5px solid white;
     height: 100%;
     left: 0;
     padding: 0 3rem;
-    padding-top: 3rem;
+    margin-top: 10rem;
+    /*padding-top: 10rem;*/
     width: 30%;
-
+    
     @media only screen and (max-width: 500px){
         position: absolute;
         height: 30rem;
@@ -67,9 +71,12 @@ const CommencementHeader=styled.div`
     text-transform: uppercase;
     margin-top: 5rem;
     margin-right: 1rem;
+    position: absolute;
+    top: 8px;
+    right: 16px;
     font-family: brandon-grotesque;
     &>h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     @media only screen and (max-width: 1024px){
         word-wrap: break-word;
@@ -90,7 +97,7 @@ const Logo = styled.img`
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 15rem;
+    width: 25rem;
 
     @media only screen and (max-width: 500px){
         margin: 1rem;
@@ -107,16 +114,36 @@ export default class Title extends React.Component {
             <TitleButton href={`/#${el === "A&E" ? "Arts and Entertainment" : el}`} key={i}><h2>{el}</h2><div/></TitleButton> 
         ))
         return(
-            <TitleWrapper>
-                <SectionContainer>
-                    {SectionButtons}
-                </SectionContainer>
-                <a href="https://www.columbiaspectator.com/">
-                    <Logo src="https://s3.amazonaws.com/year-in-review-assets/whitemasthead.png" />
-                </a>
-                {/* <Logo href="https://www.columbiaspectator.com/"/> */}
-                <CommencementHeader><h1>Commencement 2021</h1></CommencementHeader>
-            </TitleWrapper>
+            <div>
+                <Desktop>
+                    <TitleWrapper img={ImgSrc_desktop}>
+                        <CommencementHeader><h1>Homecoming 2021</h1></CommencementHeader>
+                        <SectionContainer>
+                            {SectionButtons}
+                        </SectionContainer>
+                        
+                        <a href="https://www.columbiaspectator.com/">
+                            <Logo src="https://s3.amazonaws.com/year-in-review-assets/whitemasthead.png" />
+                        </a>
+                        {/* <Logo href="https://www.columbiaspectator.com/"/> */}
+                        
+                    </TitleWrapper>
+                </Desktop>
+            <MobileAndTablet>
+                <TitleWrapper img={ImgSrc_mobile}>
+                    <CommencementHeader><h1>Homecoming 2021</h1></CommencementHeader>
+                    <SectionContainer>
+                        {SectionButtons}
+                    </SectionContainer>
+                    
+                    <a href="https://www.columbiaspectator.com/">
+                        <Logo src="https://s3.amazonaws.com/year-in-review-assets/whitemasthead.png" />
+                    </a>
+                    {/* <Logo href="https://www.columbiaspectator.com/"/> */}
+                    
+                </TitleWrapper>
+            </MobileAndTablet>
+            </div>
         )
     }
 }
