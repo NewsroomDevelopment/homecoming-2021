@@ -175,9 +175,9 @@ export default class Acknowledgements extends React.Component{
 
  
     render(){
-        var panel1 = ["Corporate Board", "News","A&E",  "Revenue"];
-        var panel2 = ["Sports", "Copy", "Opinion"];
-        var panel3 = ["Newsroom Development", "Engineering","Product Design",  "Photo"];
+        var panel1 = ["Corporate Board", "A&E", "Opinion", "Revenue"];
+        var panel2 = ["Sports", "Engineering","Product Design",  "Photo"];
+        var panel3 = ["Newsroom Development", "Copy"];
         var panel4 = ["The Eye","Illustrations","Engagement"];
         
         return(

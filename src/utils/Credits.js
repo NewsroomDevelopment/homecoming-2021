@@ -13,40 +13,6 @@ const Credits = {
             title: "Publisher"
         }
     ],
-    "News": [
-        {
-            name: "Dia Gill",
-            title: "News Editor"
-        },
-        {
-            name: "Sofia Kwon",
-            title: "News Editor"
-        },
-        {
-            name: "Abby Melbourne",
-            title: "Deputy News Editor"
-        },
-        {
-            name: "Talia Abrahamson",
-            title: "Staff Writer"
-        },
-         {
-            name: "Maya Mitrosinovic",
-            title: "Staff Writer"
-        },
-        {
-            name: "Stella Pagkas",
-            title: "Staff Writer"
-        },
-        {
-            name: "Irie Sentner",
-            title: "Staff Writer"
-        },
-        {
-            name: "Ashley Yung",
-            title: "Staff Writer"
-        }
-    ],
     "A&E": [
         {
             name: "Noah Sheidlower",
