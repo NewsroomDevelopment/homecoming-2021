@@ -71,8 +71,8 @@ const GlobalData = {
   ],
   Sports: [
     {
-      title: "Homecoming Preview",
-      link: "https://www.columbiaspectator.com/sports/2019/10/19/football-defeats-penn-44-6-in-largest-homecoming-victory-in-programs-149-year-history/",
+      title: "Columbia gunning for 400th win in Homecoming clash against Penn",
+      link: "https://www.columbiaspectator.com/sports/2021/10/13/columbia-gunning-for-400th-win-in-homecoming-clash-against-penn/",
       author: "Matthew Kim and Bernard Wang",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5HOYGIIE3RCVXPUQMFZWXDFAJI.jpg",
     },
@@ -93,7 +93,7 @@ const GlobalData = {
     {
       title:
         "Columbia football is back. These are the players to watch this season",
-      link: "https://www.columbiaspectator.com/the-eye/2021/04/29/lessons-from-a-virtual-charli-xcx-concert/",
+      link: "https://www.columbiaspectator.com/sports/2021/09/22/columbia-football-is-back-these-are-the-players-to-watch-this-season/",
       author: "Matthew Kim",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3XQQKHA3TBDS5ATFGCVRWZMHOI.jpg",
     },
@@ -116,8 +116,9 @@ const GlobalData = {
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ADQXAT5DNBBQBKKNK3SCEKV4WA.jpg",
     },
     {
-      title: "Joe Green",
-      link: "https://www.columbiaspectator.com/sports/2019/10/19/football-defeats-penn-44-6-in-largest-homecoming-victory-in-programs-149-year-history/",
+      title:
+        "‘He didn’t want to be promised anything’: Joe Green’s path to Columbia’s starting quarterback role",
+      link: "https://www.columbiaspectator.com/sports/2021/09/28/he-didnt-want-to-be-promised-anything-joe-greens-path-to-columbias-starting-quarterback-role/",
       author: "Harris Walker and Elizabeth Karpen",
       img: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
     },

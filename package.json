@@ -1,8 +1,8 @@
 {
-  "name": "commencement-2019",
+  "name": "homecoming-2021",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://commencement2021.columbiadailyspectator.com/",
+  "homepage": "https://homecoming2021.columbiadailyspectator.com/",
   "dependencies": {
     "react": "^16.8.6",
     "react-button": "^1.2.1",
