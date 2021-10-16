@@ -118,59 +118,63 @@ class Division extends React.Component {
 
 const dev_creds = [
   {
-    name: "Kevin Li",
-    title: "Former Head of Product",
-  },
-  {
-    name: "Cecilia Orduña",
-    title: "Designer",
-  },
-  {
-    name: "Shannon Hui",
-    title: "Designer",
+    name: "Hong Sen Du",
+    title: "Head of Newsroom Development",
   },
   {
     name: "Cindy Espinosa",
-    title: "Designer",
+    title: "Head of Product",
   },
   {
-    name: "Mirah Shi",
-    title: "Designer",
+    name: "Sagarika Sharma",
+    title: "Deputy Product Designer",
   },
   {
-    name: "Arsalaan Ansari",
-    title: "Former Head of Engineering",
+    name: "Raymond Banke",
+    title: "Deputy Product Designer",
   },
   {
-    name: "Rounak Bera",
-    title: "Developer",
+    name: "Victoria Geh",
+    title: "Deputy Newsroom Developer",
   },
   {
-    name: "William Chiu",
-    title: "Former Head of Product",
+    name: "Evan Li",
+    title: "Deputy Newsroom Developer",
   },
   {
-    name: "Matthew Vanegas",
-    title: "Developer",
+    name: "Patrick Puma",
+    title: "Deputy Newsroom Developer",
   },
   {
-    name: "Caroline Hoang",
-    title: "Developer",
+    name: "Elaine Lee",
+    title: "Newsroom Developer",
   },
   {
-    name: "Chenoa Bunts-Anderson",
-    title: "Developer",
+    name: "Gulshan Meem",
+    title: "Newsroom Developer",
   },
   {
-    name: "Chudi Obiofuma",
-    title: "Developer",
+    name: "Kevin Wang",
+    title: "Newsroom Developer",
+  },
+  {
+    name: "Noah Bergam",
+    title: "Newsroom Development Trainee",
+  },
+  {
+    name: "Joonsoo Lee",
+    title: "Newsroom Development Trainee",
+  },
+  {
+    name: "James Yiu",
+    title: "Newsroom Development Trainee",
   },
 ];
 
 export default class Acknowledgements extends React.Component {
   render() {
-    var panel1 = ["Corporate Board", "Spectrum", "A&E", "Newsroom Development"];
-    var panel2 = ["Sports", "Engineering", "Product Design", "Photo", ];
+    var panel1 = ["Corporate Board", "Spectrum", "A&E"];
+    var panel2 = ["Sports", "Engineering", "Photo", ];
     var panel3 = ["Opinion", "Copy"];
 
     return (

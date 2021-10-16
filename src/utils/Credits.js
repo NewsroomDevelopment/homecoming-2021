@@ -93,20 +93,20 @@ const Credits = {
     // { name: "Victoria Esquibies ", title: "Trainee " },
     // { name: "Yvin Shin ", title: "Trainee " },
   ],
-  "Product Design": [
-    {
-      name: "Cindy Espinosa",
-      title: "Head of Product",
-    },
-    {
-      name: "Sagarika Sharma",
-      title: "Deputy Product Designer",
-    },
-    {
-      name: "Raymond Banke",
-      title: "Deputy Product Designer",
-    },
-  ],
+  // "Product Design": [
+  //   {
+  //     name: "Cindy Espinosa",
+  //     title: "Head of Product",
+  //   },
+  //   {
+  //     name: "Sagarika Sharma",
+  //     title: "Deputy Product Designer",
+  //   },
+  //   {
+  //     name: "Raymond Banke",
+  //     title: "Deputy Product Designer",
+  //   },
+  // ],
   Engineering: [
     {
       name: "Erin McNulty",
@@ -125,48 +125,48 @@ const Credits = {
     },
     { name: "Haley Long", title: "Staff Writer" },
   ],
-  "Newsroom Development": [
-    {
-      name: "Hong Sen Du",
-      title: "Head of Newsroom Development",
-    },
-    {
-      name: "Victoria Geh",
-      title: "Deputy Newsroom Developer",
-    },
-    {
-      name: "Evan Li",
-      title: "Deputy Newsroom Developer",
-    },
-    {
-      name: "Patrick Puma",
-      title: "Deputy Newsroom Developer",
-    },
-    {
-      name: "Elaine Lee",
-      title: "Newsroom Developer",
-    },
-    {
-      name: "Gulshan Meem",
-      title: "Newsroom Developer",
-    },
-    {
-      name: "Kevin Wang",
-      title: "Newsroom Developer",
-    },
-    {
-      name: "Noah Bergam",
-      title: "Newsroom Development Trainee",
-    },
-    {
-      name: "Joonsoo Lee",
-      title: "Newsroom Development Trainee",
-    },
-    {
-      name: "James Yiu",
-      title: "Newsroom Development Trainee",
-    },
-  ],
+  // "Newsroom Development": [
+  //   {
+  //     name: "Hong Sen Du",
+  //     title: "Head of Newsroom Development",
+  //   },
+  //   {
+  //     name: "Victoria Geh",
+  //     title: "Deputy Newsroom Developer",
+  //   },
+  //   {
+  //     name: "Evan Li",
+  //     title: "Deputy Newsroom Developer",
+  //   },
+  //   {
+  //     name: "Patrick Puma",
+  //     title: "Deputy Newsroom Developer",
+  //   },
+  //   {
+  //     name: "Elaine Lee",
+  //     title: "Newsroom Developer",
+  //   },
+  //   {
+  //     name: "Gulshan Meem",
+  //     title: "Newsroom Developer",
+  //   },
+  //   {
+  //     name: "Kevin Wang",
+  //     title: "Newsroom Developer",
+  //   },
+  //   {
+  //     name: "Noah Bergam",
+  //     title: "Newsroom Development Trainee",
+  //   },
+  //   {
+  //     name: "Joonsoo Lee",
+  //     title: "Newsroom Development Trainee",
+  //   },
+  //   {
+  //     name: "James Yiu",
+  //     title: "Newsroom Development Trainee",
+  //   },
+  // ],
   Opinion: [
     {
       name: "Ryan Oden",
